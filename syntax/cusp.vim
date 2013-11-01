@@ -23,11 +23,11 @@
 " hi def logTime guibg=green guifg=white
 
 syn keyword basicLanguageKeywords .WORD .BLKW .EQU .CHAR .PAGE
-syn match cuspComment ';.*$'
-syn match cuspLabel '^\s*[A-Z][A-Z_0-9]*:'
-syn match cuspQuote '[^\']*'
-syn match cuspNumber '\<(\d\+)\>\|(\$[0-9A-Fa-f]+)'
-syn match cuspParam '[A-Z]\+[#\*+]*[ !]*[\s]\+'
+" syn match cuspComment ';.*$'
+" syn match cuspLabel '^\s*[A-Z][A-Z_0-9]*:'
+" syn match cuspQuote '[^\']*'
+" syn match cuspNumber '\<(\d\+)\>\|(\$[0-9A-Fa-f]+)'
+" syn match cuspParam '[A-Z]\+[#\*+]*[ !]*[\s]\+'
 
 let b:current_syntax = "cusp"
 
