@@ -1,6 +1,6 @@
 # CUSP Vim highlighting
 
-### Installing
+### Installing:
 
 - Place the files in *syntax* folder in vim's *syntax* subfolder.
 - Place the files in *ftdetect* folder in vim's *ftdetect* subfolder.
