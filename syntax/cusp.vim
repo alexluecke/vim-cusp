@@ -18,7 +18,7 @@ syn keyword cuspMnem LDA LDX LDS LDF STA STX STS STF PSH POP CLR SET TAX
 \ JGE JLE JGT JOV JNO LDC STC AOC SOJ  INB INB OUTB INW OUTW SIE CIE NOP
 \ HLT nextgroup=cuspModes skipwhite
 syn keyword BgnFinBlock BGN FIN RTN IRTN nextgroup=cuspModes skipwhite
-syn match cuspModes '[#\*+]*' nextgroup=cuspFrame skipwhite
+syn match cuspModes '[&#\*+]*' nextgroup=cuspFrame skipwhite
 syn match cuspBasic '\.\(WORD\|BLKW\|EQU\|CHAR\|PAGE\)'
 syn match cuspComment ';.*$'
 syn match cuspLabel '^[\s]*[A-Za-z][a-zA-Z_0-9]*:'
