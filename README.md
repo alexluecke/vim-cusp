@@ -1,4 +1,4 @@
-# CUSP Vim highlighting
+# Rudimentary CUSP Vim highlighting
 
 ### Installing:
 
@@ -8,4 +8,4 @@
 ### Better way:
 
  I recommend using <a
-href="https://github.com/gmarik/vundle">vundle</a> to manage your vim packages.
+href="https://github.com/gmarik/vundle">Vundle</a> to manage your vim packages.
